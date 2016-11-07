@@ -1,0 +1,109 @@
+body {
+  font-size: 16px;
+  color: #000000;
+  font-family: 'Oxygen', sans-serif;
+}
+
+#header-nav {
+  background-color: #ccff99;
+  min-height: 75px;
+  border-radius: 0;
+  border: 0;
+  margin-bottom: 0;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+  padding-bottom: 10px;
+}
+
+.navbar-brand h1 { 
+  color: #000000;
+  font-size: 1.75em;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  margin-top: 0;
+  margin-bottom: 0;
+  background-color: #9999cc;
+  font-style: bold;
+}
+#nav-list a {
+  color: #660000;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #cccc99;
+}
+
+hr.visible-xs {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  border-top: 2px solid #003300;   
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 2px solid #333333;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+#menu-categories-title + div {
+  margin-bottom: 50px;
+  background-color: #ffff99;
+}
+
+.menu-item-description {
+  padding: 0px 20px 5px 20px;
+  background-color: #ffff99;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+h3.menu-item-title {
+  margin: 0;
+  padding: 20px;
+}
+
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+   
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  
+  #collapsable-nav a { 
+    font-size: 1.2em;
+  }
+}
+
+@media (max-width: 479px) {
+
+  .navbar-brand h1 { 
+    padding-top: 5px;
+    font-size: 8vw;
+  } 
+}
+
+
+
